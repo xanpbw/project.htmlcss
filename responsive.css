@@ -17,6 +17,9 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  h2{
+    font-size: 20px;
+  }
   .top-wrapper{
     background-image: url(image/Highlight-M365-Icon-Bounce-Word-Merch\ VP1-539x440.avif);
     background-size: 100%;
@@ -37,10 +40,49 @@
   .flex-list {
     flex-wrap: wrap;
     flex-direction:column;
+    max-width:100%;
   }
-  
   .flex-list li {
-    width: 50%;
+    width: 100%;
     margin:0 auto;
+  }
+  .article{
+    width: 100%;
+    padding-bottom:50px;
+  }
+  .article h2{
+    font-size: 18px;
+  }
+  .article p{
+    font-size: 16px;
+  }
+  .offer-wrap{
+    background-image: url(image/gldn-Hero-MSCOM-Outlook-iOS-Android\ VP1-539x440.avif);
+    background-size: 100%;
+    padding-bottom:20px;
+    background-clip: border-box;
+    height: 300px;
+  }
+  .offer-desc{
+    padding-top:110px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    width:100%;
+  }
+  .article-bussiness{
+    margin-top: 200px;
+  }
+  .message-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  input, textarea{
+    width: 100%;
+  }
+  .contact-submit{
+    width: 100%;
   }
 }
