@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Arial, Helvetica, sans-serif";
 }
 
 a {
@@ -23,41 +23,37 @@ a {
   margin: 0 auto;
 }
 .top-wrapper {
-  padding: 2px 0 0 0;
-  background-color: #afd4f7;
+  background-image: url(image/Highlight-M365-Icon-Bounce-Word-Merch\ VP4-1399x600.avif);
+  background-size: cover;
 }
 .top-wrapper h1 {
-  margin-top: 175px;
-  margin-bottom: 20px;
+  padding-top: 175px;
+  padding-bottom: 20px;
   font-size: 30px;
   font-family: 'Franklin Gothic';
   font-weight: normal;
 }
 .top-wrapper p{
-  font-size: 20px;
   font-family: 'Arial';
   font-size: 16px;
   font-weight: normal;
+  line-height: 25px;
 }
 .leasson-wrapper {
   height: 500px;
   padding-bottom: 80px;
-  background-color: #afd4f7;
 }
-.main{
-  float: left;
-  width: 50%;
+
+.btn-wrapper{
+  padding-right: 20px;
 }
 .main img{
   padding-top: 63px;
   background-image: none;
 }
-.btn-wrapper {
+.btn-wrapper,.btn-link {
   margin: 30px 0;
-}
-
-.link:hover{
-  padding-right: 5px;
+  float: left;
 }
 
 .btn {
@@ -68,13 +64,13 @@ a {
   padding-right: 20px;
 }
 .link{
-  padding-left: 20px;
   font-family: 'franklin Gothic';
   color: rgb(0, 0, 0);
 }
 .link:hover{
   color: black ;
   text-decoration: underline;
+  padding-right: 5px;
 }
 .btn:hover {
   opacity: 1;
@@ -196,13 +192,14 @@ ul{
 }
 
 .article h2{
-  line-height: 1px;
+  font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .article p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  line-height: 20px;
 }
 
 .article a, span{
@@ -221,3 +218,49 @@ ul{
   margin-left: 5px;
 }
 
+.outlook-offer{
+  margin: 60px 0 30px 0;
+}
+
+.offer-wrap{
+  background-image: url(image/gldn-Hero-MSCOM-Outlook-iOS-Android\ VP4-1260x600.webp);
+  background-size: cover;
+  padding: 180px 0 190px 0;
+  cursor: pointer;
+}
+
+.offer-desc{
+  padding: 15px 100px 15px 100px;
+  width:49%;
+}
+
+.offer-desc h2, p, a{
+  font-family: Arial;
+}
+
+.offer-title{
+  font-size: 25px;
+}
+
+.offer-btn a{
+  display: inline-block;
+  background-color: #0067b8;
+  color: white;
+  padding: 15px;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.article-bussiness{
+  padding:60px 0 90px 0;
+}
+
+.art-bus-title{
+  padding:0 10px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.message-wrapper{
+  margin: 60px;
+}
