@@ -34,8 +34,11 @@
     width:100%;
     border-bottom: #cfcfcf solid;
   }
-  .btn-link{
-    margin:0 auto;
+  .btn-link,.btn-wrapper{
+    margin: 30px auto;
+  }
+  .btn-link .link, span{
+    color:#0a67b5;
   }
   .flex-list {
     flex-wrap: wrap;
