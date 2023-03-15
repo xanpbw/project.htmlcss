@@ -9,6 +9,7 @@ body {
 
 a {
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .clear {
@@ -18,7 +19,7 @@ a {
 .container {
   max-width: 1170px;
   width: 100%;
-  padding: 0 15px;
+  padding: 0 auto;
   margin: 0 auto;
 }
 .top-wrapper {
@@ -30,10 +31,13 @@ a {
   margin-bottom: 20px;
   font-size: 30px;
   font-family: 'Franklin Gothic';
+  font-weight: normal;
 }
 .top-wrapper p{
   font-size: 20px;
-  font-family: 'Franklin Gothic';
+  font-family: 'Arial';
+  font-size: 16px;
+  font-weight: normal;
 }
 .leasson-wrapper {
   height: 500px;
@@ -51,6 +55,11 @@ a {
 .btn-wrapper {
   margin: 30px 0;
 }
+
+.btn-wrapper a:hover{
+  padding-right: 5px;
+}
+
 .btn {
   padding: 12px 24px;
   color: rgb(255, 255, 255);
@@ -61,10 +70,11 @@ a {
 .link{
   padding-left: 20px;
   font-family: 'franklin Gothic';
-  color: rgb(247, 244, 244);
+  color: rgb(0, 0, 0);
 }
 .link:hover{
   color: black ;
+  text-decoration: underline;
 }
 .btn:hover {
   opacity: 1;
@@ -114,3 +124,100 @@ textarea {
   position: relative;
   top: 7px;
 }
+
+.product-offer{  
+  width: 100%;
+}
+
+.offer-list{
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: content-box;
+}
+
+ul{
+  list-style: none;
+  margin: 0px;
+  text-align: center;
+  padding: 40px 0;
+}
+.flex-list{ 
+  display: flex;
+  max-width: 67%;
+  margin: 0 auto;
+}
+
+.flex-list li{
+  flex: 1 1 auto;
+  max-width: auto;
+  width: 20%;
+}
+
+.flex-list a{
+  color: #0067b8;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.flex-icon{
+  padding: 10px;
+}
+
+.li1 p{
+  margin: 0px;
+}
+
+.li2 p{
+  margin: 0px;
+}
+
+.li3 p{
+  margin: 0px;
+}
+
+.list{
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+.article{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.article img{
+  width: 100%;
+  height: 100%;
+}
+
+.article h2{
+  line-height: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.article a, span{
+  color: #0067b8;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.article a:hover{
+  text-decoration: underline;
+  padding-right: 5px;
+}
+
+.arrow{
+  margin-left: 5px;
+}
+
