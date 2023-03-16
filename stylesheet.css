@@ -287,6 +287,7 @@ header {
   width: 124px;
   height: 45px;
   padding-top: 20px;
+  float: left;
 }
 
 header a{
@@ -308,4 +309,13 @@ header a:hover{
 i{
   color: grey;
   padding: 0 10px 0 0;
+}
+
+.menu-icon {
+  color: gray;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display:none;
 }
