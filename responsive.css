@@ -8,6 +8,9 @@
     .articles{
       margin:0 15px;
     }
+    .art-bus-wrap{
+      margin:0 15px;
+    }
     .flex-list {
       flex-wrap: wrap;
     }
