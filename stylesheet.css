@@ -99,11 +99,11 @@ textarea {
   margin-bottom: 30px;
   padding: 20px;
   font-size: 18px;
-  border: 1px solid #dee7ec;
+  border: 1px solid #adadad;
 }
 
 .contact-submit {
-  background-color: #dee7ec;
+  background-color: #0067b8;
   color: #889eab;
   opacity: 0.8;
   display: inline-block;
