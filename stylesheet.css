@@ -263,3 +263,49 @@ ul{
 .message-wrapper{
   margin: 60px;
 }
+
+/* Untuk Header */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -55px;
+}
+
+.logo {
+  width: 124px;
+  height: 45px;
+  padding-top: 20px;
+}
+
+header a{
+  display: inline-block;
+  color: grey;
+  padding: 0 15px;
+  margin-top: 25px;
+}
+.header-right{
+  padding-top: 15px;
+  margin-top: -23px;
+}
+
+header a:hover{
+  color: grey;
+  text-decoration: underline;
+}
+
+i{
+  color: grey;
+  padding: 0 10px 0 0;
+}
