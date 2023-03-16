@@ -313,7 +313,7 @@ i{
 
 .menu-icon {
   color: gray;
-  float: right;
+  float: left;
   font-size: 25px;
   padding: 21px 0;
   /* Gantikan property display ke none */
