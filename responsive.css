@@ -42,9 +42,7 @@
     .menu-icon{
       display:none;
     }
-    .fa {
-      display:none;
-    }
+    
 }
 
 /* Untuk Smartphone */
@@ -127,10 +125,7 @@
   .search{
     text-align: left;
   }
-  .menu-icon {
-    display:block;
-  }
-  .fa {
+  .menu-icon{
     display:block;
   }
   .header-left{
