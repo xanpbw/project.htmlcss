@@ -99,16 +99,16 @@ textarea {
   margin-bottom: 30px;
   padding: 20px;
   font-size: 18px;
-  border: 1px solid #adadad;
+  border: 1px solid #001c31;
 }
 
 .contact-submit {
   background-color: #0067b8;
-  color: #889eab;
+  color: #fdfeff;
   opacity: 0.8;
   display: inline-block;
   cursor: pointer;
-  box-shadow: 0 7px #819dad;
+  box-shadow: 0 7px #003e6d;
 }
 
 .contact-submit:hover {
