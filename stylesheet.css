@@ -22,6 +22,16 @@ a {
   padding: 0 auto;
   margin: 0 auto;
 }
+
+.menu-icon {
+  color: gray;
+  float: left;
+  font-size: 15px;
+  padding: 10px 0;
+  /* Gantikan property display ke none */
+  display:none;
+}
+
 .top-wrapper {
   background-image: url(image/Highlight-M365-Icon-Bounce-Word-Merch\ VP4-1399x600.avif);
   background-size: cover;
@@ -309,13 +319,4 @@ header a:hover{
 i{
   color: grey;
   padding: 0 10px 0 0;
-}
-
-.menu-icon {
-  color: gray;
-  float: left;
-  font-size: 15px;
-  padding: 10px 0;
-  /* Gantikan property display ke none */
-  display:none;
 }
