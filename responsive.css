@@ -42,6 +42,9 @@
     .menu-icon{
       display:none;
     }
+    .fa-bars{
+      display:none;
+    }
 }
 
 /* Untuk Smartphone */
