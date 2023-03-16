@@ -321,3 +321,103 @@ i{
   color: grey;
   padding: 0 10px 0 0;
 }
+
+footer ul{
+  padding: 5px 0;
+}
+.footer-bottom{
+  height: 1px;
+}
+
+.footer-bottom p, a, span{
+  font-size: 12px;
+  color:#646464;
+}
+.footer-bottom li{
+  padding: 10px;
+}
+.lang-icon{
+  padding: 0;
+  float: left;
+}
+.lang{
+  padding: 5px 5px 0 0;
+  float: left;
+}
+.lang-right li{
+  float: right;
+}
+.lang-left p{
+  margin: 0 0 0 0;
+}
+.lang-right p{
+  margin: 5px 0 0 0;
+}
+.lang-left{
+  float:left;
+}
+.lang-right a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.lang-right{
+  float:right;
+}
+.footer {
+  position: relative;
+  background-color: #f0f0f0;
+  bottom: 0;
+  padding: 70px 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  font: bold 18px sans-serif;
+  padding: 50px 50px 60px 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-col {
+  width: 16%;
+  padding: 0 10px;
+  float: left;
+}
+
+.footer-col h4 {
+  font-size: 15px;
+  color: rgb(43, 43, 43);
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: bold;
+  position: relative;
+  text-align: left;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col li{
+  text-align: left;
+}
+.footer-col ul li a {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}

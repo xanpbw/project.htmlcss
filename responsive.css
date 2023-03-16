@@ -45,6 +45,9 @@
     .menu-icon{
       display:none;
     }
+    .microsoft-list{
+      display: none;
+    }
 }
 
 /* Untuk Smartphone */
@@ -138,8 +141,22 @@
     margin: -25px 5px 0 0;
   }
   header a{
-    font-size: 12px;
+    font-size: 10px;
     padding:0px;
     margin:25px 0 0 0;
+  }
+  .microsoft-list{
+    display: none;
+  }
+  .footer-col{
+    width: 100%;
+    padding: 0 0 30px 0;
+    float:none;
+  }
+  .footer-col h4{
+    margin:0;
+  }
+  .lang-right li{
+    float:left;
   }
 }
