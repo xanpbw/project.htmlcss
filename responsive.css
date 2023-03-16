@@ -130,6 +130,9 @@
   .menu-icon {
     display:block;
   }
+  .fa {
+    display:block;
+  }
   .header-left{
     display:none;
   }
