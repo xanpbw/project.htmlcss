@@ -39,6 +39,9 @@
       padding:0px;
       margin:25px 5px 0 5px;
     }
+    .menu-icon{
+      display:none;
+    }
 }
 
 /* Untuk Smartphone */
